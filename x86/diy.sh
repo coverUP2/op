@@ -12,6 +12,8 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
+
 ##安装主题
 git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 
@@ -21,3 +23,6 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-t
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+
+
+rm -rf package/feeds/kiddin9/luci-app-netdata/
