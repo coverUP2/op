@@ -17,6 +17,7 @@
 ##安装主题
 git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 
+git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
 
 
 # Add a feed source
@@ -25,4 +26,4 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-t
 sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
 
 
-rm -rf package/feeds/kiddin9/luci-app-netdata/
+rm -rf package/feeds/kiddin9/luci-app-netdata
