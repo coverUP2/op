@@ -18,10 +18,6 @@
 git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 
 
-##安装插件
-git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
-
-
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
@@ -29,3 +25,6 @@ sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.co
 
 #删除插件
 rm -rf package/feeds/kiddin9/luci-app-netdata
+
+##安装插件
+git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
