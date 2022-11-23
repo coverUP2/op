@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: X86
+name: immortalwrt-x86
 
 on:
   repository_dispatch:
@@ -20,17 +20,17 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_BRANCH: openwrt-21.02
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: x86/x86.config
-  DIY_P1_SH: x86/diy.sh
-  DIY_P2_SH: diy-part2.sh
+  CONFIG_FILE: immortalwrt/x86/x86.config
+  DIY_P1_SH: immortalwrt/x86/diy.sh
+  DIY_P2_SH: immortalwrt/x86/diy2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
   UPLOAD_WETRANSFER: false
-  UPLOAD_RELEASE: false
+  UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
 
 jobs:
