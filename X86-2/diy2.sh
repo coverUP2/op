@@ -13,6 +13,3 @@
 # Modify default IP
 sed -i ' s/192.168.1.1/192.168.2.9/g ' package/base-files/files/bin/config_generate
 
-sed -i '/<tr><td width="33%"><%:CPU usage (%)%></td><td id="cpuusage">-</td></tr>/a\<tr><td width="33%"><%:Compiler author%></td><td>WindyDay</td></tr>' package/lean/autocore/files/x86/index.htm
-
-sed -i '$a msgid "Compiler author"\n msgstr "固件编译作者"' feeds/luci/modules/luci-base/po/zh-cn/base.po
