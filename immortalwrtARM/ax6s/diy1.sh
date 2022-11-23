@@ -13,8 +13,8 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-#git clone https://github.com/linkease/istore.git package/istore
-#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/linkease/istore.git package/istore
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
 
