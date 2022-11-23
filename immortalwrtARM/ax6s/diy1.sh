@@ -12,12 +12,12 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-# 添加主题 neobird
-git clone https://github.com/linkease/istore.git package/istore
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
+#git clone https://github.com/linkease/istore.git package/istore
+#git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 
-# 添加软件源
+
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
