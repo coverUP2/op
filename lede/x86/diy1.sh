@@ -18,6 +18,8 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-t
 
 # 哪吒监控
 git clone https://github.com/Erope/openwrt_nezha.git package/nezha
+git clone https://github.com/sirpdboy/luci-app-wizard.git package/luci-app-wizard
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 
 # 添加软件源
 # Add a feed source
