@@ -13,9 +13,11 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# 添加主题 neobird 
+# 主题 neobird 
 git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 
+# 哪吒监控
+git clone https://github.com/Erope/openwrt_nezha.git package/nezha
 
 # 添加软件源
 # Add a feed source
