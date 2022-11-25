@@ -20,7 +20,7 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-t
 git clone https://github.com/Erope/openwrt_nezha.git package/nezha
 git clone https://github.com/sirpdboy/luci-app-wizard.git package/luci-app-wizard
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
- git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 
 # 添加软件源
 # Add a feed source
