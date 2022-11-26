@@ -14,11 +14,13 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # 主题 neobird 
-git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
+#git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
 
 # 插件
-
-
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 
 # 添加软件源
 # Add a feed source
