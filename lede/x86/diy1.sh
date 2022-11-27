@@ -18,9 +18,9 @@
 
 # 插件
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-#git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
-#git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 # 添加软件源
