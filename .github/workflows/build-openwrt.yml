@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: LEDE_X86_5.4
 
 on:
   repository_dispatch:
