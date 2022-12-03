@@ -53,7 +53,7 @@
 
 **系统截图**：
 
-<img width="805" alt="openwrt" src="https://github.com/coverUP2/op/raw/main/5.png">
+<img width="805" alt="openwrt" src="https://m.360buyimg.com/babel/jfs/t1/95862/16/32174/105730/638b6b62E8154b8b5/2acd9f791ba49444.jpg">
 
 ## 感谢 ❤️
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
