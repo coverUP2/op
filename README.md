@@ -59,4 +59,4 @@
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
 - 脚本来源： P3TERX 的 使用 GitHub Actions 云编译 OpenWrt https://github.com/P3TERX/Actions-OpenWrt
 - 插件仓库来源：https://github.com/kenzok8/openwrt-packages
-- 应用过滤插件来源：https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+- 应用过滤插件来源：https://github.com/destan19/OpenAppFilter.git
