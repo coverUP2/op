@@ -17,7 +17,7 @@
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-advanced  #高级设置
   - [x] luci-app-arpbind  #IP/MAC绑定
-  - [x] lci-app-adguardhome  #去广告和DNS服务器
+  - [x] luci-app-adguardhome  #去广告和DNS服务器
   - [x] luci-app-autoreboot  #支持计划重启
   - [x] luci-app-argon-config  #arogn 主题设置
   - [x] luci-app-ddns   #动态域名 DNS
