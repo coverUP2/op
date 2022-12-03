@@ -49,7 +49,7 @@
   - [x] luci-app-vsftpd  #FTP服务器
   - [x] luci-app-webadmin  #Web管理页面设置
   - [x] luci-app-wol   #WOL网络唤醒
-  - [✅] luci-app-zerotier  #ZeroTier内网穿透
+  - [x] luci-app-zerotier  #ZeroTier内网穿透
 
 **系统截图**：
 
