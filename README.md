@@ -35,7 +35,7 @@
   - [x] luci-app-passwall2  #科学上网2
   - [x] luci-app-passwall  #科学上网
   - [x] luci-app-oaf  #应用过滤
-  - [x] luci-app-openclash  #clash科学上网（Li大内插件）
+  - [x] luci-app-openclash  #clash科学上网
   - [x] luci-app-ramfree  #释放内存
   - [x] luci-app-smartdns  #SmartDNS本地服务器
   - [x] luci-app-serverchan  #微信推送
