@@ -7,13 +7,13 @@
 - 本项目编译固件后台地址：192.168.2.9 管理员：root  初始密码：password
 
 
-**本项目相对源码默认设置做了如下更改**：
+**本项目相对源码默认设置做了如下更改**：（**打勾项**默认**编译**入固件）
 - 主题插件:
 - [x] luci-theme-argon-mod   #arogn主题
 - [x] luci-theme-neobird   #适配手机端neobird主题
 - [x] luci-theme-Opentopd   #sirpdboy的Opentopd主题
 
-**集成插件**：（**打勾项**默认**编译**入固件）
+**集成插件**：
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-advanced  #高级设置
   - [x] luci-app-arpbind  #IP/MAC绑定
