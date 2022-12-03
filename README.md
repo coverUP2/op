@@ -55,7 +55,7 @@
 
 <img width="600" alt="openwrt" src="https://m.360buyimg.com/babel/jfs/t1/95862/16/32174/105730/638b6b62E8154b8b5/2acd9f791ba49444.jpg">
 
-## 感谢 ❤️
+## 感谢
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
 - 脚本来源： P3TERX 的 使用 GitHub Actions 云编译 OpenWrt https://github.com/P3TERX/Actions-OpenWrt
 - 插件仓库来源：https://github.com/kenzok8/openwrt-packages
