@@ -12,7 +12,7 @@
 - luci-theme-neobird #适配手机端neobird主题
 - luci-theme-Opentopd #sirpdboy的Opentopd主题
 
-**集成插件**：（**打勾项**默认**编译**入固件、**未打勾项**默认**不编译**入固件）
+**集成插件**：（**打勾项**默认**编译**入固件）
   - [x] luci-app-accesscontrol  #访问时间控制
   - [x] luci-app-advanced #高级设置
   - [x] luci-app-arpbind  #IP/MAC绑定
