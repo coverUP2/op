@@ -8,7 +8,7 @@
 
 
 **本项目相对源码默认设置做了如下更改**：
-**主题插件**:
+- 主题插件:
 - [x] luci-theme-argon-mod   #arogn主题
 - [x] luci-theme-neobird   #适配手机端neobird主题
 - [x] luci-theme-Opentopd   #sirpdboy的Opentopd主题
