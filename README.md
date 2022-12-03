@@ -47,13 +47,13 @@
   - [x] luci-app-upnp   #通用即插即用UPnP（端口自动转发）
   - [x] luci-app-vlmcsd  #KMS服务器设置
   - [x] luci-app-vsftpd  #FTP服务器
-   [x]  luci-app-webadmin  #Web管理页面设置
+  - [x] luci-app-webadmin  #Web管理页面设置
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
 
 **系统截图**：
 
-<img width="805" alt="openwrt" src="https://user-images.githubusercontent.com/59355325/143574001-02a80f54-a188-460e-83d1-6f08428ba57e.png">
+<img width="805" alt="openwrt" src="https://github.com/coverUP2/op/raw/main/y.png">
 
 ## 感谢 ❤️
 - 源码来源： Lean 的 Openwrt 源码仓库 https://github.com/coolsnowwolf/lede
