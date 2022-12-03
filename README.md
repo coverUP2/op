@@ -8,17 +8,17 @@
 - 本项目相对源码默认设置做了如下更改：
 
 **主题插件**:
-- luci-theme-argon-mod #arogn主题
-- luci-theme-neobird #适配手机端neobird主题
-- luci-theme-Opentopd #sirpdboy的Opentopd主题
+- luci-theme-argon-mod   #arogn主题
+- luci-theme-neobird   #适配手机端neobird主题
+- luci-theme-Opentopd   #sirpdboy的Opentopd主题
 
 **集成插件**：（**打勾项**默认**编译**入固件）
   - [x] luci-app-accesscontrol  #访问时间控制
-  - [x] luci-app-advanced #高级设置
+  - [x] luci-app-advanced  #高级设置
   - [x] luci-app-arpbind  #IP/MAC绑定
   - [x] lci-app-adguardhome  #去广告和DNS服务器
   - [x] luci-app-autoreboot  #支持计划重启
-  - [x] luci-app-argon-config #arogn 主题设置
+  - [x] luci-app-argon-config  #arogn 主题设置
   - [x] luci-app-ddns   #动态域名 DNS
   - [x] luci-app-diskman   #磁盘管理工具
   - [x] luci-app-dockerman #docker管理工具
@@ -37,7 +37,7 @@
   - [x] luci-app-openclash  #clash科学上网（Li大内插件）
   - [x] luci-app-ramfree  #释放内存
   - [x] luci-app-smartdns  #SmartDNS本地服务器
-  - [x] luci-app-serverchan #微信推送
+  - [x] luci-app-serverchan  #微信推送
   - [x] luci-app-store  #iStore应用商店
   - [x] luci-app-syncdial  #多拨虚拟网卡（原macvlan）
   - [x] luci-app-socat  #Socat 端口转发支持IPV6
@@ -45,8 +45,8 @@
   - [x] luci-app-ttyd   #网页终端命令行
   - [x] luci-app-turboacc   #Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT) 
   - [x] luci-app-upnp   #通用即插即用UPnP（端口自动转发）
-  - [x] luci-app-vlmcsd  #KMS服务器设置
-  - [x] luci-app-vsftpd  #FTP服务器
+  - [x] luci-app-vlmcsd   #KMS服务器设置
+  - [x] luci-app-vsftpd   #FTP服务器
   - [x] luci-app-webadmin  #Web管理页面设置
   - [x] luci-app-wol   #WOL网络唤醒
   - [x] luci-app-zerotier  #ZeroTier内网穿透
