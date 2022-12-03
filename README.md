@@ -18,14 +18,14 @@
   - [x] luci-app-arpbind  #IP/MAC绑定
   - [x] lci-app-adguardhome  #去广告和DNS服务器
   - [x] luci-app-autoreboot  #支持计划重启
-  - [x] luci-app-argon-config #arogn主题设置
-  - [x] luci-app-ddns   #动态域名 DNS（集成阿里DDNS客户端）
+  - [x] luci-app-argon-config #arogn 主题设置
+  - [x] luci-app-ddns   #动态域名 DNS
   - [x] luci-app-diskman   #磁盘管理工具
   - [x] luci-app-dockerman #docker管理工具
   - [x] luci-app-filetransfer  #文件传输（可web安装ipk包）
   - [x] luci-app-firewall   #添加防火墙
   - [x] luci-app-frps   #内网穿透Frp服务端
-  - [x] luci-app-mosdns  #DNS转发器
+  - [x] luci-app-mosdns  #DNS 转发器
   - [x] luci-app-mwan3   #MWAN3负载均衡
   - [x] luci-app-mwan3helper   #MWAN3分流助手
   - [x] luci-app-netdata  #Netdata实时监控（图形化）
