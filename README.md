@@ -61,3 +61,9 @@
 - 脚本来源： P3TERX 的 使用 GitHub Actions 云编译 OpenWrt https://github.com/P3TERX/Actions-OpenWrt
 - 插件仓库来源：https://github.com/kenzok8/openwrt-packages
 - 应用过滤插件来源：https://github.com/destan19/OpenAppFilter.git
+
+
+**红米AX6S底包**：
+
+-底包地址：https://www.123pan.com/s/Aq5RVv-xqu4H 提取码:6666
+-刷机教程：先刷factory.bin再刷sysupgrade.bin
