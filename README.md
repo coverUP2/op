@@ -65,5 +65,5 @@
 
 **红米AX6S底包**：
 
--底包地址：https://www.123pan.com/s/Aq5RVv-xqu4H 提取码:6666
--刷机教程：先刷factory.bin再刷sysupgrade.bin
+- 底包地址：https://www.123pan.com/s/Aq5RVv-xqu4H 提取码:6666
+- 刷机教程：先刷factory.bin再刷sysupgrade.bin
