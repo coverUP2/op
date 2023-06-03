@@ -18,5 +18,4 @@ sed -i ' s/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=6.1/g ' target/linux/x86/Makef
 # 删除源
 sed -i '/kenzok/d' /etc/opkg/distfeeds.conf
 sed -i '/small/d' /etc/opkg/distfeeds.conf
-
 sed -i 's/luci-theme-bootstrap/luci-theme-argone/g' feeds/luci/collections/luci/Makefile
