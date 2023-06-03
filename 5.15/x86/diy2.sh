@@ -14,6 +14,5 @@
 sed -i ' s/192.168.1.1/192.168.2.9/g ' package/base-files/files/bin/config_generate
 
 #修改内核版本
-#sed -i 's/KERNEL_PATCHVER:=6.1:/KERNEL_PATCHVER:=5.15/g' target/linux/x86/Makefile
-
+sed -i ' s/KERNEL_PATCHVER:=5.15/KERNEL_PATCHVER:=6.1/g ' target/linux/x86/Makefile
 sed -i ' s/luci-theme-bootstrap/luci-theme-argone/g ' feeds/luci/collections/luci/Makefile
