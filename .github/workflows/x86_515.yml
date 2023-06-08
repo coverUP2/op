@@ -188,10 +188,3 @@ jobs:
         delete_tags: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                 
-    - name: Send PushPlus notification
-      if: always()
-      env:
-        PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-      run: |
-        curl -s -X POST -d "token=${PUSHPLUS_TOKEN}&title=OpenWrt编译完成&content=OpenWrt编译已完成，请查看结果。" https://www.pushplus.plus/send
