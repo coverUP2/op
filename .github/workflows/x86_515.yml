@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 5.15/x86/x66.config
+  CONFIG_FILE: 5.15/x86/x86.config
   DIY_P1_SH: 5.15/x86/diy1.sh
   DIY_P2_SH: 5.15/x86/diy2.sh
   UPLOAD_BIN_DIR: false
