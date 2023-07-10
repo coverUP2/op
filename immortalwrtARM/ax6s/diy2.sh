@@ -14,4 +14,4 @@
 sed -i ' s/192.168.6.1/192.168.2.3/g ' package/base-files/files/bin/config_generate
 
 #sed -i ' s/luci-theme-bootstrap/luci-theme-argon-mod/g ' feeds/luci/collections/luci/Makefile
-sed -i 's/luci-theme-bootstrap/luci-theme-argone-mod/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-neobird/g' feeds/luci/collections/luci/Makefile
