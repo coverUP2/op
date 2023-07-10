@@ -20,12 +20,12 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/padavanonly/immortalwrtARM
+  REPO_BRANCH: mt7622
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: lede/ax6s/ax6s.config
-  DIY_P1_SH: lede/ax6s/diy1.sh
-  DIY_P2_SH: lede/ax6s/diy2.sh
+  CONFIG_FILE: immortalwrtARM/ax6s/aax6s.config
+  DIY_P1_SH: immortalwrtARM/ax6s/diy3.sh
+  DIY_P2_SH: immortalwrtARM/ax6s/diy4.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
