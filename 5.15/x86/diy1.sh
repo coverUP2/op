@@ -23,6 +23,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # 主题
 git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon.git
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird 
+git clone https://github.com/tty228/luci-app-wechatpush.git package/wechatpush
 
 
 
