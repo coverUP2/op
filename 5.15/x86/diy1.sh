@@ -18,8 +18,11 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# oaf应用控制
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+# 主题
 git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon.git
+git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird 
 
 
 
