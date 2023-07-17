@@ -20,9 +20,8 @@ on:
         default: 'false'
 
 env:
- # REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_URL: https://github.com/coverUP2/lede.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/Lienol/openwrt.git
+  REPO_BRANCH: 23.05
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: x86/istore/x86.config
   DIY_P1_SH: x86/istore/diy1.sh
