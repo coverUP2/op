@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: X86_istore
+name: X86_515
 
 on:
   repository_dispatch:
@@ -20,12 +20,14 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: master
+ # REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_URL: https://github.com/coverUP2/lede.git
+ # REPO_BRANCH: master
+  REPO_BRANCH: openwrt-23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: x86/istore/x86.config
-  DIY_P1_SH: x86/istore/diy1.sh
-  DIY_P2_SH: x86/istore/diy2.sh
+  CONFIG_FILE: 5.15/istore/x86.config
+  DIY_P1_SH: 5.15/istore/diy1.sh
+  DIY_P2_SH: 5.15/istore/diy2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
@@ -158,7 +160,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")+LEDE_X86_带istore商店"
+        echo "::set-output name=release_tag::$(date +"%Y.%m.%d-%H%M")+istore"
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
@@ -185,6 +187,6 @@ jobs:
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       with:
         keep_latest: 3
-        delete_tags: flase
+        delete_tags: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
