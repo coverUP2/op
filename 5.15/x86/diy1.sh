@@ -21,11 +21,11 @@
 # oaf应用控制
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 # 主题
-git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon.git
-git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird 
+#git clone -b master https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon.git
+#git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird 
 
 
 
-#sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
-sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
+sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+#sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
