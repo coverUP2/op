@@ -25,7 +25,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird 
 
 
-sed -i 'i/src-git lienol https://github.com/Lienol/openwrt-package.git/d' feeds.conf.default
+sed -i 'src-git lienol https://github.com/Lienol/openwrt-package.git/d' feeds.conf.default
 sed -i '$a src-git kiddin9 https://github.com/kiddin9/openwrt-packages;master' feeds.conf.default
 
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
