@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: X86_immo
+name: X86_istore
 
 on:
   repository_dispatch:
