@@ -1,4 +1,4 @@
-#!/bin/bash
+？#!/bin/bash
 #
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
@@ -26,7 +26,7 @@ git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-
 
 
 
-sed -i '$a src-git coverup https://github.com/coverUP2/openwrt-packages.git;master' feeds.conf.default
+sed -i '$a src-git coverup https://github.com/coverUP2/openwrt-packages.git' feeds.conf.default
 
 #sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
