@@ -176,16 +176,7 @@ jobs:
 
     - name: Check space usage
       if: (!cancelled())
-      run: df -hT
-        
-    - name: Package OpenWrt Firmware
-      uses: ophub/flippy-openwrt-actions@main
-      env:
-        OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
-        PACKAGE_SOC: s905d
-        KERNEL_VERSION_NAME: 5.15.128
-        KERNEL_AUTO_LATEST: false
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: df -hT 
 
         
     - name: Organize files
