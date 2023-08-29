@@ -1,6 +1,7 @@
 name: Cloud N1 OpenWrt
 
 on:
+ repository_dispatch:
   push:
     branches:
       - main
@@ -8,9 +9,9 @@ on:
       - 'README.md'
       - 'script.sh'
       - 'config.sh'
-  schedule:
-   - cron: 0 8 * * 0
-
+  # schedule:
+  # - cron: 0 8 * * 0
+ 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
