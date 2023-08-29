@@ -61,7 +61,7 @@ jobs:
         chmod +x $SCRIPT_SH
         ./$SCRIPT_SH
         cd openwrt
-        sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
+        sed -i '$a src-git coverup https://github.com/coverUP2/openwrt-packages.git' feeds.conf.default
         ./scripts/feeds update -a
 
     - name: Install feeds
