@@ -20,12 +20,5 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default 
-
-sed -i '$a src-git coverup https://github.com/coverUP2/openwrt-packages.git' feeds.conf.defaul
-
-#sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
-#sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-
-#添加 IPK插件
-git clone https://github.com/sirpdboy/luci-app-netwizard.git package/luci-app-netwizard
-git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
+sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
