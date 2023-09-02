@@ -31,3 +31,4 @@ rm -rf package/lean/autocore
 
 #添加 IPK插件
 git clone https://github.com/sirpdboy/myautocore package/myautocore
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
