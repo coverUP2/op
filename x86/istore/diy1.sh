@@ -30,3 +30,4 @@ sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/sirpdboy/luci-app-wizard package/luci-app-wizard
+git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
