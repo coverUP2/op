@@ -20,4 +20,4 @@ sed -i 's/192.168.1.1/192.168.2.9/g' package/base-files/files/bin/config_generat
 # sed -i '/small/d' /etc/opkg/distfeeds.conf
 #sed -i 's/luci-theme-bootstrap/luci-theme-neobird/g' feeds/luci/collections/luci/Makefile
 
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argone/' feeds/luci/collections/luci/Makefile
