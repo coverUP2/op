@@ -20,10 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/Lienol/openwrt.git
+  REPO_BRANCH: 23.05
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 5.15/x86/x96.config
+  CONFIG_FILE: 5.15/x86/lieno.config
   DIY_P1_SH: 5.15/x86/diy1.sh
   DIY_P2_SH: 5.15/x86/diy2.sh
   UPLOAD_BIN_DIR: false
