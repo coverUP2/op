@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/JiaY-shi/openwrt.git
-  REPO_BRANCH: ipq60xx-devel_nss 
+  REPO_BRANCH: ipq60xx-devel_nss
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: 5.15/x86/ax1800.config
   DIY_P1_SH: 5.15/x86/diy1.sh
