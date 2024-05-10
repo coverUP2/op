@@ -20,10 +20,10 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/JiaY-shi/openwrt.git
+  REPO_BRANCH: ipq60xx-devel_nss
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: 6.0/x86/x86.config
+  CONFIG_FILE: 6.0/x86/ax1800.config
   DIY_P1_SH: 6.0/x86/diy1.sh
   DIY_P2_SH: 6.0/x86/diy2.sh
   UPLOAD_BIN_DIR: false
