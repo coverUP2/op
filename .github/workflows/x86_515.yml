@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: X86_515
+name: jdc-ax1800pro
 
 on:
   repository_dispatch:
