@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: immortalwrtARM/ax6s/ax6s.config
-  DIY_P1_SH: immortalwrtARM/ax6s/diy3.sh
-  DIY_P2_SH: immortalwrtARM/ax6s/diy4.sh
+  DIY_P1_SH: immortalwrtARM/ax6s/diy1.sh
+  DIY_P2_SH: immortalwrtARM/ax6s/diy2.sh
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
