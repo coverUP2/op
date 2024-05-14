@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/padavanonly/immortalwrtARM
   REPO_BRANCH: mt7622
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: immortalwrtARM/ax6s/ax6s.config
+  CONFIG_FILE: immortalwrtARM/ax6s/.config-ax6s
   DIY_P1_SH: immortalwrtARM/ax6s/diy1.sh
   DIY_P2_SH: immortalwrtARM/ax6s/diy2.sh
   UPLOAD_BIN_DIR: false
